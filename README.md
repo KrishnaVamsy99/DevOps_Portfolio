@@ -56,6 +56,7 @@ The following enhancements are planned:
 1. Cross-Platform Support: Extend compatibility to Linux alongside Windows.
 2. Dynamic Content: Transition from static to dynamic and interactive web content using APIs or server-side rendering.
 3. New Tools:
-    * Ansible: For configuration management.
+    *  Ansible: For configuration management.
     *  Terraform: For infrastructure as code.
     *  AWS Cloud: For cloud-based deployment and scalability.
+    *  
