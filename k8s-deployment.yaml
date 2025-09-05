@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: vite-react-deployment
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: vite-react
@@ -17,11 +17,9 @@ spec:
           image: gvkvamsy99/vite-react-app:latest
           ports:
             - containerPort: 80
-
 ---
-
 apiVersion: v1
-kind: service
+kind: Service
 metadata:
   name: vite-react-service
 spec:
@@ -32,3 +30,5 @@ spec:
       port: 3000
       targetPort: 80
   type: NodePort
+
+
