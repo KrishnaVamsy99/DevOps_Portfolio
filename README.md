@@ -59,4 +59,3 @@ The following enhancements are planned:
     *  Ansible: For configuration management.
     *  Terraform: For infrastructure as code.
     *  AWS Cloud: For cloud-based deployment and scalability.
-    *  
